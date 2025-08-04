@@ -1,1 +1,189 @@
- 
+/* CSS Variables for Design System */
+:root {
+  /* Colors */
+  --primary-background: #000000;
+  --primary-text: #FFFFFF;
+  --accent-available: #22C55E;
+  --accent-highlight: #F97316;
+  --secondary-background: #1F1F1F;
+  --neutral-gray: #808080;
+  
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --h1-size: 10rem;
+  --h1-weight: 700;
+  --h1-line-height: 1.1;
+  --h1-letter-spacing: 0.05em;
+  
+  --h2-size: 1.5rem;
+  --h2-weight: 600;
+  --h2-line-height: 1.3;
+  --h2-letter-spacing: 0.02em;
+  
+  --body-size: 1.125rem;
+  --body-weight: 400;
+  --body-line-height: 1.6;
+  --body-letter-spacing: 0.01em;
+  
+  --small-size: 0.875rem;
+  --small-weight: 400;
+  --small-line-height: 1.4;
+  
+  /* Spacing */
+  --section-padding: 4rem 2rem;
+  --container-max-width: 1200px;
+  --grid-gap: 2rem;
+  
+  /* Transitions */
+  --transition-speed: 0.3s;
+  --transition-ease: ease;
+}
+
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--primary-background);
+  color: var(--primary-text);
+  line-height: var(--body-line-height);
+  letter-spacing: var(--body-letter-spacing);
+  font-size: var(--body-size);
+  font-weight: var(--body-weight);
+}
+
+/* Typography */
+h1 {
+  font-size: var(--h1-size);
+  font-weight: var(--h1-weight);
+  line-height: var(--h1-line-height);
+  letter-spacing: var(--h1-letter-spacing);
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: var(--h2-size);
+  font-weight: var(--h2-weight);
+  line-height: var(--h2-line-height);
+  letter-spacing: var(--h2-letter-spacing);
+}
+
+.small-text {
+  font-size: var(--small-size);
+  font-weight: var(--small-weight);
+  line-height: var(--small-line-height);
+}
+
+/* Layout */
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section {
+  padding: var(--section-padding);
+}
+
+/* Grid System */
+.grid {
+  display: grid;
+  gap: var(--grid-gap);
+}
+
+.grid-2 {
+  grid-template-columns: 1fr;
+}
+
+/* Responsive Breakpoints */
+@media (min-width: 768px) {
+  .grid-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .section {
+    padding: 6rem 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section {
+    padding: 8rem 4rem;
+  }
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.gap-4 {
+  gap: 4rem;
+}
+
+/* Transitions */
+.transition {
+  transition: all var(--transition-speed) var(--transition-ease);
+}
+
+/* Hover Effects */
+.hover-opacity:hover {
+  opacity: 0.8;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+} 
