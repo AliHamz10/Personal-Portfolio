@@ -1,0 +1,108 @@
+{
+  "designSystem": {
+    "overallStyle": {
+      "description": "Minimalist dark mode theme with high contrast, clean lines, and modern aesthetic. Emphasizes simplicity, bold typography, and subtle accents for availability and interactive elements. The design focuses on personal branding for a product designer, with a portfolio showcase that highlights projects without overwhelming details."
+    },
+    "colorPalette": {
+      "primaryBackground": "#000000",
+      "primaryText": "#FFFFFF",
+      "accentAvailable": "#22C55E",
+      "accentHighlight": "#F97316",
+      "secondaryBackground": "#1F1F1F",
+      "neutralGray": "#808080",
+      "notes": "High contrast between black background and white text for readability. Green accent for positive status (e.g., availability). Orange used sparingly for highlights in project visuals."
+    },
+    "typography": {
+      "fontFamily": "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+      "headings": {
+        "h1": {
+          "size": "10rem",
+          "weight": "700",
+          "lineHeight": "1.1",
+          "letterSpacing": "0.05em",
+          "textTransform": "uppercase",
+          "notes": "Used for main name/title, bold and prominent."
+        },
+        "h2": {
+          "size": "1.5rem",
+          "weight": "600",
+          "lineHeight": "1.3",
+          "letterSpacing": "0.02em",
+          "notes": "For subtitles or section headers like 'FEATURED PROJECT:'."
+        }
+      },
+      "body": {
+        "size": "1.125rem",
+        "weight": "400",
+        "lineHeight": "1.6",
+        "letterSpacing": "0.01em",
+        "notes": "For descriptive paragraphs, readable with ample spacing."
+      },
+      "smallText": {
+        "size": "0.875rem",
+        "weight": "400",
+        "lineHeight": "1.4",
+        "notes": "For subtitles like 'YOU'LL LIKE IT;', social links, and labels."
+      },
+      "notes": "All text is sans-serif for a modern feel. Uppercase used for emphasis in headings and links. Ensure high contrast for accessibility."
+    },
+    "layoutStructure": {
+      "global": {
+        "grid": "Flexible grid with max-width container (e.g., 1200px), centered content.",
+        "responsiveness": "Mobile-first: Stack sections vertically on smaller screens, side-by-side images become stacked. Use media queries for breakpoints at 768px and 1024px.",
+        "spacing": "Generous vertical padding between sections (4-8rem), horizontal padding (2-4rem). Use rem units for scalability."
+      },
+      "sections": {
+        "header": {
+          "description": "Top navigation bar, fixed or sticky, with logo on left, menu items centered/left, contact on right.",
+          "layout": "Flexbox row, justify-between, align-center. Includes hamburger menu icon for mobile."
+        },
+        "hero": {
+          "description": "Full-width section with large title, subtitle, description, availability indicator, and social links.",
+          "layout": "Column layout, left-aligned text, with vertical stacking. Social links in a horizontal row below description."
+        },
+        "featuredProject": {
+          "description": "Showcase section with project images and captions.",
+          "layout": "Two-column grid for images (side-by-side on desktop, stacked on mobile), with captions below. Use grid-template-columns: 1fr 1fr; gap: 2rem."
+        },
+        "notes": "Sections separated by subtle horizontal dividers or ample whitespace. Overall vertical flow from header to footer."
+      }
+    },
+    "components": {
+      "navigation": {
+        "description": "Simple text-based nav with logo, links, and icon.",
+        "styles": "Text links in white, no underline, hover effect: subtle opacity change or underline. Menu icon: three lines, white."
+      },
+      "availabilityIndicator": {
+        "description": "Text 'AVAILABLE' with a preceding colored dot.",
+        "styles": "Green circle (1rem diameter, border-radius: 50%), inline with text."
+      },
+      "socialLinks": {
+        "description": "Horizontal list of uppercase text links.",
+        "styles": "Flex row, gap: 1.5rem, small text size, hover: color change to accent or underline."
+      },
+      "projectShowcase": {
+        "description": "Image containers with captions.",
+        "styles": "Images full-width within container, no borders, subtle shadow if needed. Captions: small text, aligned left below image, with year right-aligned."
+      },
+      "buttons": {
+        "description": "Not prominent in screenshot, but implied contact button.",
+        "styles": "Minimal: white text on black, or outlined, with hover animation like scale or color invert."
+      },
+      "notes": "Components are reusable, with focus on hover states for interactivity (e.g., opacity 0.8 on hover). No heavy shadows or borders for minimalist look."
+    },
+    "visualElements": {
+      "animations": "Subtle fade-ins for sections, hover scales for links/images (1.05x). Smooth transitions (0.3s ease).",
+      "shadows": "Minimal or none; if used, soft box-shadow: 0 4px 6px rgba(0,0,0,0.1).",
+      "borders": "None visible; use for subtle separation if needed (1px solid #333).",
+      "icons": "Simple, like hamburger menu or dot indicators.",
+      "imagery": "High-quality 3D renders or photos, grayscale/dark toned to match theme, placed in grid layouts.",
+      "notes": "Ensure dark mode compatibility, with focus on accessibility (WCAG contrast ratios). Use CSS variables for colors and spacing to maintain consistency."
+    },
+    "replicationGuidelines": {
+      "consistency": "Use CSS variables for colors, fonts, and spacing. Stick to grid/flex for layouts. Test responsiveness across devices.",
+      "tools": "Suitable for implementation in HTML/CSS/JS, or frameworks like React/Tailwind CSS. In Cursor, reference this JSON for generating components with matching styles.",
+      "variations": "Easily adaptable to light mode by inverting colors (white background, black text). Add more sections like projects list or about page in similar style."
+    }
+  }
+}
