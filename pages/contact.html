@@ -1,1 +1,190 @@
- 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Your Name</title>
+    <meta
+      name="description"
+      content="Get in touch with Your Name for design projects and collaborations"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/components/navbar.css" />
+    <link rel="stylesheet" href="../css/components/footer.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="../index.html" class="navbar-logo">Your Name</a>
+
+        <ul class="navbar-menu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" class="navbar-contact">Contact</a></li>
+        </ul>
+
+        <div class="mobile-menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contact Hero Section -->
+    <section class="section hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Contact</h1>
+          <h2>Let's Work Together</h2>
+          <p class="hero-description">
+            I'm always interested in new opportunities and exciting projects.
+            Whether you have a question or want to discuss a potential
+            collaboration, feel free to reach out.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="section">
+      <div class="container">
+        <div class="grid grid-2">
+          <!-- Contact Form -->
+          <div class="contact-form-container">
+            <h2 class="section-title uppercase">Send Message</h2>
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <label for="name" class="form-label uppercase small-text"
+                  >Name</label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-input"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label uppercase small-text"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-input"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label uppercase small-text"
+                  >Subject</label
+                >
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  class="form-input"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label uppercase small-text"
+                  >Message</label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-textarea"
+                  rows="6"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="submit-btn uppercase small-text">
+                Send Message
+              </button>
+            </form>
+          </div>
+
+          <!-- Contact Information -->
+          <div class="contact-info">
+            <h2 class="section-title uppercase">Get In Touch</h2>
+
+            <div class="contact-item">
+              <h3 class="contact-label uppercase small-text">Email</h3>
+              <a href="mailto:hello@yourname.com" class="contact-link"
+                >hello@yourname.com</a
+              >
+            </div>
+
+            <div class="contact-item">
+              <h3 class="contact-label uppercase small-text">Location</h3>
+              <p class="contact-text">San Francisco, CA</p>
+            </div>
+
+            <div class="contact-item">
+              <h3 class="contact-label uppercase small-text">Availability</h3>
+              <div class="availability-indicator">
+                <span class="availability-dot"></span>
+                <span class="availability-text uppercase small-text"
+                  >Available for new projects</span
+                >
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <h3 class="contact-label uppercase small-text">Social</h3>
+              <div class="social-links">
+                <a href="#" class="social-link uppercase small-text"
+                  >LinkedIn</a
+                >
+                <a href="#" class="social-link uppercase small-text"
+                  >Dribbble</a
+                >
+                <a href="#" class="social-link uppercase small-text">Behance</a>
+                <a href="#" class="social-link uppercase small-text">Twitter</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-content">
+          <p class="footer-text">© 2024 Your Name. All rights reserved.</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../js/main.js"></script>
+    <script src="../js/components/navbar.js"></script>
+    <script src="../js/utils/helpers.js"></script>
+  </body>
+</html>

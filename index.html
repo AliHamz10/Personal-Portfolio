@@ -1,1 +1,134 @@
- 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name - Product Designer</title>
+    <meta
+      name="description"
+      content="Product Designer specializing in user experience and interface design"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/components/navbar.css" />
+    <link rel="stylesheet" href="css/components/footer.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="index.html" class="navbar-logo">Your Name</a>
+
+        <ul class="navbar-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/about.html">About</a></li>
+          <li><a href="pages/projects.html">Projects</a></li>
+          <li>
+            <a href="pages/contact.html" class="navbar-contact">Contact</a>
+          </li>
+        </ul>
+
+        <div class="mobile-menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="section hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Your Name</h1>
+          <h2>Product Designer</h2>
+          <p class="hero-description">
+            I create meaningful digital experiences that connect people with
+            products they love. Specializing in user experience design,
+            interface design, and product strategy.
+          </p>
+
+          <!-- Availability Indicator -->
+          <div class="availability-indicator">
+            <span class="availability-dot"></span>
+            <span class="availability-text uppercase small-text"
+              >Available</span
+            >
+          </div>
+
+          <!-- Social Links -->
+          <div class="social-links">
+            <a href="#" class="social-link uppercase small-text">LinkedIn</a>
+            <a href="#" class="social-link uppercase small-text">Dribbble</a>
+            <a href="#" class="social-link uppercase small-text">Behance</a>
+            <a href="#" class="social-link uppercase small-text">Twitter</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Project Section -->
+    <section class="section featured-section">
+      <div class="container">
+        <h2 class="section-title uppercase">Featured Project</h2>
+
+        <div class="project-showcase grid grid-2">
+          <div class="project-image">
+            <img
+              src="assets/images/project-1.jpg"
+              alt="Project 1"
+              class="project-img"
+            />
+            <div class="project-caption">
+              <span class="project-title small-text uppercase"
+                >Project Name</span
+              >
+              <span class="project-year small-text">2024</span>
+            </div>
+          </div>
+
+          <div class="project-image">
+            <img
+              src="assets/images/project-2.jpg"
+              alt="Project 2"
+              class="project-img"
+            />
+            <div class="project-caption">
+              <span class="project-title small-text uppercase"
+                >Project Name</span
+              >
+              <span class="project-year small-text">2024</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-content">
+          <p class="footer-text">© 2024 Your Name. All rights reserved.</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="pages/about.html">About</a></li>
+          <li><a href="pages/projects.html">Projects</a></li>
+          <li><a href="pages/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/components/navbar.js"></script>
+  </body>
+</html>

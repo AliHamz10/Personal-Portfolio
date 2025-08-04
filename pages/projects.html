@@ -1,1 +1,128 @@
- 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - Your Name</title>
+    <meta
+      name="description"
+      content="View my latest design projects and case studies"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/components/navbar.css" />
+    <link rel="stylesheet" href="../css/components/footer.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="../index.html" class="navbar-logo">Your Name</a>
+
+        <ul class="navbar-menu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" class="navbar-contact">Contact</a></li>
+        </ul>
+
+        <div class="mobile-menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Projects Hero Section -->
+    <section class="section hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Projects</h1>
+          <h2>Selected Work</h2>
+          <p class="hero-description">
+            A collection of my recent design projects, showcasing my approach to
+            solving complex problems through thoughtful design and user-centered
+            solutions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="section filter-section">
+      <div class="container">
+        <div class="filter-controls">
+          <button class="filter-btn active" data-filter="all">
+            All Projects
+          </button>
+          <button class="filter-btn" data-filter="ux-ui">UX/UI Design</button>
+          <button class="filter-btn" data-filter="mobile">Mobile Design</button>
+          <button class="filter-btn" data-filter="web">Web Design</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="section projects-section">
+      <div class="container">
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Projects will be loaded dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Template (Hidden) -->
+    <template id="projectTemplate">
+      <article class="project-card" data-category="">
+        <div class="project-image">
+          <img src="" alt="" class="project-img" />
+          <div class="project-overlay">
+            <a href="#" class="project-link uppercase small-text"
+              >View Project</a
+            >
+          </div>
+        </div>
+        <div class="project-info">
+          <h3 class="project-title"></h3>
+          <p class="project-description"></p>
+          <div class="project-meta">
+            <span class="project-category"></span>
+            <span class="project-year"></span>
+          </div>
+          <div class="project-tags">
+            <!-- Tags will be added dynamically -->
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-content">
+          <p class="footer-text">© 2024 Your Name. All rights reserved.</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../js/main.js"></script>
+    <script src="../js/components/navbar.js"></script>
+    <script src="../js/utils/helpers.js"></script>
+  </body>
+</html>
