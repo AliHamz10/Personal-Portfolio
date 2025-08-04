@@ -1,1 +1,183 @@
- 
+{
+  "designSkills": [
+    {
+      "category": "Design Tools",
+      "skills": [
+        {
+          "name": "Figma",
+          "level": "Expert",
+          "years": 5
+        },
+        {
+          "name": "Sketch",
+          "level": "Advanced",
+          "years": 4
+        },
+        {
+          "name": "Adobe XD",
+          "level": "Advanced",
+          "years": 3
+        },
+        {
+          "name": "Adobe Photoshop",
+          "level": "Intermediate",
+          "years": 3
+        },
+        {
+          "name": "Adobe Illustrator",
+          "level": "Intermediate",
+          "years": 2
+        }
+      ]
+    },
+    {
+      "category": "Prototyping",
+      "skills": [
+        {
+          "name": "InVision",
+          "level": "Advanced",
+          "years": 4
+        },
+        {
+          "name": "Principle",
+          "level": "Intermediate",
+          "years": 2
+        },
+        {
+          "name": "Framer",
+          "level": "Intermediate",
+          "years": 2
+        },
+        {
+          "name": "ProtoPie",
+          "level": "Beginner",
+          "years": 1
+        }
+      ]
+    }
+  ],
+  "technicalSkills": [
+    {
+      "category": "Frontend Development",
+      "skills": [
+        {
+          "name": "HTML5",
+          "level": "Advanced",
+          "years": 4
+        },
+        {
+          "name": "CSS3",
+          "level": "Advanced",
+          "years": 4
+        },
+        {
+          "name": "JavaScript",
+          "level": "Intermediate",
+          "years": 3
+        },
+        {
+          "name": "React",
+          "level": "Intermediate",
+          "years": 2
+        },
+        {
+          "name": "Vue.js",
+          "level": "Beginner",
+          "years": 1
+        }
+      ]
+    },
+    {
+      "category": "Design Systems",
+      "skills": [
+        {
+          "name": "Design Tokens",
+          "level": "Advanced",
+          "years": 3
+        },
+        {
+          "name": "Component Libraries",
+          "level": "Advanced",
+          "years": 3
+        },
+        {
+          "name": "Style Guides",
+          "level": "Advanced",
+          "years": 4
+        },
+        {
+          "name": "Design Documentation",
+          "level": "Advanced",
+          "years": 3
+        }
+      ]
+    }
+  ],
+  "softSkills": [
+    {
+      "category": "User Experience",
+      "skills": [
+        {
+          "name": "User Research",
+          "level": "Advanced",
+          "years": 4
+        },
+        {
+          "name": "Usability Testing",
+          "level": "Advanced",
+          "years": 3
+        },
+        {
+          "name": "Information Architecture",
+          "level": "Advanced",
+          "years": 4
+        },
+        {
+          "name": "Wireframing",
+          "level": "Expert",
+          "years": 5
+        },
+        {
+          "name": "User Journey Mapping",
+          "level": "Advanced",
+          "years": 3
+        }
+      ]
+    },
+    {
+      "category": "Collaboration",
+      "skills": [
+        {
+          "name": "Design Sprints",
+          "level": "Advanced",
+          "years": 3
+        },
+        {
+          "name": "Stakeholder Communication",
+          "level": "Advanced",
+          "years": 4
+        },
+        {
+          "name": "Cross-functional Collaboration",
+          "level": "Advanced",
+          "years": 4
+        },
+        {
+          "name": "Design Reviews",
+          "level": "Advanced",
+          "years": 3
+        }
+      ]
+    }
+  ],
+  "methodologies": [
+    "Design Thinking",
+    "Human-Centered Design",
+    "Agile/Scrum",
+    "Lean UX",
+    "Design Systems",
+    "Accessibility (WCAG)",
+    "Mobile-First Design",
+    "Responsive Design"
+  ]
+}

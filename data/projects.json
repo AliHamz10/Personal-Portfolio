@@ -1,1 +1,91 @@
- 
+[
+  {
+    "id": 1,
+    "title": "E-Commerce Platform Redesign",
+    "description": "Complete redesign of a modern e-commerce platform focusing on user experience and conversion optimization.",
+    "category": "UX/UI Design",
+    "year": "2024",
+    "featured": true,
+    "image": "assets/images/project-1.jpg",
+    "tags": ["UX Design", "UI Design", "E-commerce", "Mobile First"],
+    "client": "TechCorp",
+    "duration": "3 months",
+    "tools": ["Figma", "Sketch", "InVision", "Principle"],
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "title": "Mobile Banking App",
+    "description": "Intuitive mobile banking application designed for seamless financial management and security.",
+    "category": "Mobile Design",
+    "year": "2024",
+    "featured": true,
+    "image": "assets/images/project-2.jpg",
+    "tags": ["Mobile Design", "Fintech", "Security", "User Research"],
+    "client": "BankFlow",
+    "duration": "4 months",
+    "tools": ["Figma", "Adobe XD", "Zeplin", "UserTesting"],
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "title": "SaaS Dashboard Interface",
+    "description": "Comprehensive dashboard design for a SaaS platform with advanced analytics and user management.",
+    "category": "Web Design",
+    "year": "2023",
+    "featured": false,
+    "image": "assets/images/project-3.jpg",
+    "tags": ["Dashboard Design", "SaaS", "Analytics", "Data Visualization"],
+    "client": "DataViz Inc",
+    "duration": "2 months",
+    "tools": ["Figma", "Sketch", "D3.js", "Chart.js"],
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "title": "Restaurant Booking System",
+    "description": "User-friendly restaurant booking platform with real-time availability and payment integration.",
+    "category": "Web Design",
+    "year": "2023",
+    "featured": false,
+    "image": "assets/images/project-4.jpg",
+    "tags": [
+      "Booking System",
+      "Payment Integration",
+      "Real-time",
+      "User Experience"
+    ],
+    "client": "DineEasy",
+    "duration": "3 months",
+    "tools": ["Figma", "Adobe XD", "Stripe API", "Socket.io"],
+    "link": "#"
+  },
+  {
+    "id": 5,
+    "title": "Fitness Tracking App",
+    "description": "Comprehensive fitness tracking application with workout plans, progress monitoring, and social features.",
+    "category": "Mobile Design",
+    "year": "2023",
+    "featured": false,
+    "image": "assets/images/project-5.jpg",
+    "tags": ["Fitness", "Mobile App", "Health", "Social Features"],
+    "client": "FitLife",
+    "duration": "5 months",
+    "tools": ["Figma", "Principle", "Lottie", "Firebase"],
+    "link": "#"
+  },
+  {
+    "id": 6,
+    "title": "Educational Platform",
+    "description": "Interactive educational platform designed for online learning with video content and assessments.",
+    "category": "Web Design",
+    "year": "2022",
+    "featured": false,
+    "image": "assets/images/project-6.jpg",
+    "tags": ["Education", "E-learning", "Video Platform", "Assessment"],
+    "client": "EduTech",
+    "duration": "4 months",
+    "tools": ["Figma", "Sketch", "InVision", "Video.js"],
+    "link": "#"
+  }
+]
