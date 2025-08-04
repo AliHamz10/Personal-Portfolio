@@ -1,1 +1,122 @@
- 
+/* Navigation Component */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--primary-background);
+  z-index: 1000;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid var(--secondary-background);
+}
+
+.navbar-container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: var(--h2-size);
+  font-weight: var(--h2-weight);
+  text-transform: uppercase;
+  letter-spacing: var(--h2-letter-spacing);
+  color: var(--primary-text);
+  text-decoration: none;
+  transition: all var(--transition-speed) var(--transition-ease);
+}
+
+.navbar-logo:hover {
+  opacity: 0.8;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  align-items: center;
+}
+
+.navbar-menu a {
+  color: var(--primary-text);
+  text-decoration: none;
+  font-size: var(--small-size);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  transition: all var(--transition-speed) var(--transition-ease);
+}
+
+.navbar-menu a:hover {
+  opacity: 0.8;
+}
+
+.navbar-contact {
+  color: var(--primary-text);
+  text-decoration: none;
+  font-size: var(--small-size);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  transition: all var(--transition-speed) var(--transition-ease);
+}
+
+.navbar-contact:hover {
+  opacity: 0.8;
+}
+
+/* Mobile Menu */
+.mobile-menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 4px;
+}
+
+.mobile-menu-toggle span {
+  width: 25px;
+  height: 3px;
+  background-color: var(--primary-text);
+  transition: all var(--transition-speed) var(--transition-ease);
+}
+
+.mobile-menu-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.mobile-menu-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.mobile-menu-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar-menu {
+    position: fixed;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--primary-background);
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1.5rem;
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all var(--transition-speed) var(--transition-ease);
+    border-bottom: 1px solid var(--secondary-background);
+  }
+
+  .navbar-menu.active {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .mobile-menu-toggle {
+    display: flex;
+  }
+}
