@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Initialize projects page
 async function initializeProjectsPage() {
   try {
-    const response = await fetch("../data/projects.json");
+    const response = await fetch("/data/projects.json");
     const projects = await response.json();
 
     displayProjects(projects);

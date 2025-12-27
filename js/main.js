@@ -55,7 +55,7 @@ function initializeAnimations() {
 // Load project data from JSON
 async function loadProjectData() {
     try {
-        const response = await fetch('data/projects.json');
+        const response = await fetch('/data/projects.json');
         const projects = await response.json();
         
         // Populate featured projects on homepage
