@@ -3,131 +3,206 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Name - Product Designer</title>
+    <title>Ali Hamza - Full Stack Developer</title>
     <meta
       name="description"
-      content="Product Designer specializing in user experience and interface design"
+      content="Ali Hamza is a full stack developer focused on thoughtful products, experiments, and writing."
     />
 
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
 
-    <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/components/navbar.css" />
     <link rel="stylesheet" href="css/components/footer.css" />
   </head>
   <body>
-    <!-- Navigation -->
     <nav class="navbar">
       <div class="navbar-container">
-        <a href="index.html" class="navbar-logo">Your Name</a>
+        <a href="#top" class="navbar-logo">Ali Hamza</a>
+
+        <button
+          class="mobile-menu-toggle"
+          type="button"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+        </button>
 
         <ul class="navbar-menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="pages/about.html">About</a></li>
-          <li><a href="pages/projects.html">Projects</a></li>
-          <li>
-            <a href="pages/contact.html" class="navbar-contact">Contact</a>
-          </li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#writing">Writing</a></li>
+          <li><a href="#contact" class="navbar-contact">Contact</a></li>
         </ul>
-
-        <div class="mobile-menu-toggle">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
       </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="section hero-section">
-      <div class="container">
+    <main id="top" class="page">
+      <section class="section hero" id="about">
         <div class="hero-content">
-          <h1>Your Name</h1>
-          <h2>Product Designer</h2>
+          <p class="eyebrow">Full stack developer</p>
+          <h1 class="hero-title">
+            <span>Developing for fun.</span>
+            <span>Thoroughly curious.</span>
+          </h1>
           <p class="hero-description">
-            I create meaningful digital experiences that connect people with
-            products they love. Specializing in user experience design,
-            interface design, and product strategy.
+            I'm a full stack developer and recent graduate focused on constant
+            improvement in all aspects of my craft. I spend my time teaching,
+            shipping software, and chasing the next challenge.
+            <a href="#contact">Want to know more?</a>
           </p>
-
-          <!-- Availability Indicator -->
-          <div class="availability-indicator">
-            <span class="availability-dot"></span>
-            <span class="availability-text uppercase small-text"
-              >Available</span
-            >
-          </div>
-
-          <!-- Social Links -->
-          <div class="social-links">
-            <a href="#" class="social-link uppercase small-text">LinkedIn</a>
-            <a href="#" class="social-link uppercase small-text">Dribbble</a>
-            <a href="#" class="social-link uppercase small-text">Behance</a>
-            <a href="#" class="social-link uppercase small-text">Twitter</a>
-          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Featured Project Section -->
-    <section class="section featured-section">
-      <div class="container">
-        <h2 class="section-title uppercase">Featured Project</h2>
-
-        <div class="project-showcase grid grid-2">
-          <div class="project-image">
-            <img
-              src="assets/images/project-1.jpg"
-              alt="Project 1"
-              class="project-img"
-            />
-            <div class="project-caption">
-              <span class="project-title small-text uppercase"
-                >Project Name</span
-              >
-              <span class="project-year small-text">2024</span>
-            </div>
-          </div>
-
-          <div class="project-image">
-            <img
-              src="assets/images/project-2.jpg"
-              alt="Project 2"
-              class="project-img"
-            />
-            <div class="project-caption">
-              <span class="project-title small-text uppercase"
-                >Project Name</span
-              >
-              <span class="project-year small-text">2024</span>
-            </div>
-          </div>
+      <section class="section section-lined" id="updates" data-reveal>
+        <div class="section-header">
+          <h2 class="section-title">Updates &rarr;</h2>
         </div>
-      </div>
-    </section>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">Jul 2025</div>
+            <div class="timeline-details">
+              <h3>Joined Grove</h3>
+              <p>Fourth hire and founding forward-deployed engineer.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">Mar 2025</div>
+            <div class="timeline-details">
+              <h3>GrizzHacks 7</h3>
+              <p>Bigger prizes, better projects, and a lot more AI.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">Feb 2025</div>
+            <div class="timeline-details">
+              <h3>Full Time @ KL&amp;A</h3>
+              <p>Joined the R&amp;D team to build applied AI tools.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">Dec 2024</div>
+            <div class="timeline-details">
+              <h3>Graduated Oakland University</h3>
+              <p>B.S. in Computer Science with lots of ambition.</p>
+            </div>
+          </article>
+        </div>
+      </section>
 
-    <!-- Footer -->
+      <section class="section section-lined" id="projects" data-reveal>
+        <div class="section-header">
+          <h2 class="section-title">Projects &rarr;</h2>
+        </div>
+        <div class="project-list">
+          <article class="project-card">
+            <div class="project-meta">
+              <p class="project-date">Jun 2025</p>
+              <h3>Doings.today</h3>
+              <p>
+                A social journal for tracking your daily doings and building
+                consistency with friends.
+              </p>
+              <a class="project-link" href="#">doings.today &nearr;</a>
+            </div>
+            <div class="project-media" role="img" aria-label="Project image placeholder">
+              <span>Image placeholder</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <p class="project-date">Apr 2023</p>
+              <h3>Groople</h3>
+              <p>
+                Daily word game, evaluated with AI. Peaked at 100 daily active
+                users.
+              </p>
+              <a class="project-link" href="#">groople.xyz &nearr;</a>
+            </div>
+            <div class="project-media" role="img" aria-label="Project image placeholder">
+              <span>Image placeholder</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <p class="project-date">Aug 2023</p>
+              <h3>GrizzHacks</h3>
+              <p>
+                Initiated reboot, directed a team of 12, and handled all things
+                development.
+              </p>
+              <a class="project-link" href="#">grizzhacks.org &nearr;</a>
+            </div>
+            <div class="project-media" role="img" aria-label="Project image placeholder">
+              <span>Image placeholder</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-lined" id="writing" data-reveal>
+        <div class="section-header">
+          <h2 class="section-title">Writing &rarr;</h2>
+        </div>
+        <div class="writing-list">
+          <article class="writing-row">
+            <a href="#">How to Win Hackathons</a>
+            <span>Apr 6, 2025</span>
+          </article>
+          <article class="writing-row">
+            <a href="#">2024</a>
+            <span>Jan 1, 2025</span>
+          </article>
+          <article class="writing-row">
+            <a href="#">Making a social media with no database</a>
+            <span>Dec 5, 2024</span>
+          </article>
+          <article class="writing-row">
+            <a href="#">Everyone Needs to Know How to Trace</a>
+            <span>Aug 27, 2024</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-lined" id="contact" data-reveal>
+        <div class="section-header">
+          <h2 class="section-title">Let's chat</h2>
+        </div>
+        <p class="contact-text">
+          I want to see what you're working on. Reach me at
+          <a href="mailto:alihamza@example.com">alihamza@example.com</a>,
+          <a href="#">@alihamza on Twitter</a>, or ask me anything on
+          <a href="#">my QnA</a>.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:alihamza@example.com" aria-label="Email">Email</a>
+          <a href="#" aria-label="GitHub">GitHub</a>
+          <a href="#" aria-label="X">X</a>
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
     <footer class="footer">
       <div class="footer-container">
-        <div class="footer-content">
-          <p class="footer-text">© 2024 Your Name. All rights reserved.</p>
+        <p class="footer-text">© 2025 Ali Hamza</p>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#writing">Writing</a>
         </div>
-        <ul class="footer-links">
-          <li><a href="pages/about.html">About</a></li>
-          <li><a href="pages/projects.html">Projects</a></li>
-          <li><a href="pages/contact.html">Contact</a></li>
-        </ul>
       </div>
     </footer>
 
-    <!-- JavaScript -->
     <script src="js/main.js"></script>
     <script src="js/components/navbar.js"></script>
   </body>
