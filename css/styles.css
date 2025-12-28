@@ -187,8 +187,7 @@ a:hover {
 }
 
 .achievement-card {
-  display: grid;
-  grid-template-columns: auto 1fr;
+  display: block;
   gap: 2rem;
   align-items: center;
   padding: 2.2rem;
@@ -196,21 +195,6 @@ a:hover {
   background: var(--bg-elevated);
   border: 1px solid var(--line);
   transition: transform var(--transition), box-shadow var(--transition);
-}
-
-.achievement-icon {
-  width: 80px;
-  height: 80px;
-  border-radius: 18px;
-  background: #f7df1e;
-  color: #111;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-heading);
-  font-weight: 700;
-  font-size: 1.2rem;
-  letter-spacing: 0.08em;
 }
 
 .achievement-content h3 {
