@@ -10,7 +10,7 @@
     "semantic_hash": "7cd45b14ca973a2e93d46838a366174d"
   },
   "src/App.tsx": {
-    "mtime": 1781363925.269153,
+    "mtime": 1781365092.4892366,
     "ast_hash": "aa7de4a83a2aaebba2b54bf7f72badc4",
     "semantic_hash": ""
   },
@@ -70,12 +70,12 @@
     "semantic_hash": "11faa99e0c998bd758f7973ac6ac5677"
   },
   "src/components/Navbar.tsx": {
-    "mtime": 1781363891.6873634,
-    "ast_hash": "3230dddd35ac33ac03184b9682d6ec3f",
+    "mtime": 1781365571.0740263,
+    "ast_hash": "afb1b68e6c3ee5afde6e6c52a7ea4bf1",
     "semantic_hash": ""
   },
   "src/components/common/UI.tsx": {
-    "mtime": 1781364597.7482173,
+    "mtime": 1781365092.490573,
     "ast_hash": "5157488d6e2e115518ee3284fa6c1534",
     "semantic_hash": ""
   }
