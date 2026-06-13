@@ -5,12 +5,14 @@ import "./styles/Navbar.css";
 
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState("#home");
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = ["Home", "About", "Services", "Experience", "Work", "Contact"];
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
     e.preventDefault();
     setActiveSection(id);
+    setIsMenuOpen(false);
     const element = document.querySelector(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
@@ -102,6 +104,74 @@ const Navbar = () => {
         >
           <FiEdit />
         </a>
+      </div>
+
+      <button
+        className={`navbar-toggler ${isMenuOpen ? "" : "collapsed"}`}
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
+        aria-expanded={isMenuOpen}
+        aria-label="Toggle navigation"
+      >
+        <span className="toggler-icon">
+          <span className="toggler-icon-line"></span>
+          <span className="toggler-icon-line"></span>
+          <span className="toggler-icon-line"></span>
+        </span>
+      </button>
+
+      <div className={`mobile-menu ${isMenuOpen ? "open" : ""}`}>
+        <ul className="mobile-nav-menu">
+          {menuItems.map((item) => {
+            const id = `#${item.toLowerCase().replace(/\s+/g, "-")}`;
+            return (
+              <li key={item}>
+                <HoverLink
+                  text={item}
+                  href={id}
+                  onClick={(e) => handleNavClick(e, id)}
+                  active={activeSection === id}
+                  className="mobile-nav-link"
+                />
+              </li>
+            );
+          })}
+        </ul>
+        <div className="mobile-social-links">
+          <a
+            href="mailto:alihamzatk@gmail.com"
+            className="mobile-icon-link"
+            title="Email"
+          >
+            <FiMail />
+          </a>
+          <a
+            href="https://github.com/AliHamz10"
+            target="_blank"
+            rel="noreferrer"
+            className="mobile-icon-link"
+            title="GitHub"
+          >
+            <FiGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/alihamz/"
+            target="_blank"
+            rel="noreferrer"
+            className="mobile-icon-link"
+            title="LinkedIn"
+          >
+            <FiLinkedin />
+          </a>
+          <a
+            href="/Ali_Hamza_Resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="mobile-icon-link"
+            title="Resume"
+          >
+            <FiEdit />
+          </a>
+        </div>
       </div>
     </nav>
   );
