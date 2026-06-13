@@ -427,7 +427,7 @@
       "label": "Navbar()",
       "file_type": "code",
       "source_file": "src/components/Navbar.tsx",
-      "source_location": "L7",
+      "source_location": "L6",
       "_origin": "ast",
       "id": "components_navbar_navbar",
       "community": 10,
@@ -2545,5 +2545,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ca0c23465a7ce54f12100061d305cc58d6ff1f3e"
+  "built_at_commit": "f740370e95ee3acb5b4a21d8e9c5b7d85657b593"
 }

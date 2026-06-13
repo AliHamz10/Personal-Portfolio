@@ -427,7 +427,7 @@
       "label": "Navbar()",
       "file_type": "code",
       "source_file": "src/components/Navbar.tsx",
-      "source_location": "L6",
+      "source_location": "L7",
       "_origin": "ast",
       "id": "components_navbar_navbar",
       "community": 10,
@@ -1695,9 +1695,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_navbar",
-      "confidence_score": 1.0
+      "target": "components_navbar"
     },
     {
       "relation": "contains",
@@ -1738,9 +1738,9 @@
       "source_file": "src/components/Navbar.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_navbar",
-      "target": "common_ui",
-      "confidence_score": 1.0
+      "target": "common_ui"
     },
     {
       "relation": "imports",
@@ -1749,9 +1749,9 @@
       "source_file": "src/components/Navbar.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_navbar",
-      "target": "common_ui_hoverlink",
-      "confidence_score": 1.0
+      "target": "common_ui_hoverlink"
     },
     {
       "relation": "contains",
@@ -1759,9 +1759,9 @@
       "source_file": "src/components/Navbar.tsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_navbar",
-      "target": "components_navbar_navbar",
-      "confidence_score": 1.0
+      "target": "components_navbar_navbar"
     },
     {
       "relation": "contains",
@@ -1769,9 +1769,9 @@
       "source_file": "src/components/common/UI.tsx",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "common_ui",
-      "target": "common_ui_button",
-      "confidence_score": 1.0
+      "target": "common_ui_button"
     },
     {
       "relation": "contains",
@@ -1779,9 +1779,9 @@
       "source_file": "src/components/common/UI.tsx",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "common_ui",
-      "target": "common_ui_buttonprops",
-      "confidence_score": 1.0
+      "target": "common_ui_buttonprops"
     },
     {
       "relation": "contains",
@@ -1789,9 +1789,9 @@
       "source_file": "src/components/common/UI.tsx",
       "source_location": "L78",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "common_ui",
-      "target": "common_ui_hoverlink",
-      "confidence_score": 1.0
+      "target": "common_ui_hoverlink"
     },
     {
       "relation": "contains",
@@ -1799,9 +1799,9 @@
       "source_file": "src/components/common/UI.tsx",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "common_ui",
-      "target": "common_ui_hoverlinkprops",
-      "confidence_score": 1.0
+      "target": "common_ui_hoverlinkprops"
     },
     {
       "relation": "contains",
@@ -1809,9 +1809,9 @@
       "source_file": "src/components/common/UI.tsx",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "common_ui",
-      "target": "common_ui_loader",
-      "confidence_score": 1.0
+      "target": "common_ui_loader"
     },
     {
       "relation": "contains",
@@ -1819,9 +1819,9 @@
       "source_file": "src/components/common/UI.tsx",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "common_ui",
-      "target": "common_ui_loaderprops",
-      "confidence_score": 1.0
+      "target": "common_ui_loaderprops"
     },
     {
       "relation": "contains",
@@ -1829,9 +1829,9 @@
       "source_file": "src/components/common/UI.tsx",
       "source_location": "L103",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "common_ui",
-      "target": "common_ui_option",
-      "confidence_score": 1.0
+      "target": "common_ui_option"
     },
     {
       "relation": "contains",
@@ -1839,9 +1839,9 @@
       "source_file": "src/components/common/UI.tsx",
       "source_location": "L117",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "common_ui",
-      "target": "common_ui_select",
-      "confidence_score": 1.0
+      "target": "common_ui_select"
     },
     {
       "relation": "contains",
@@ -1849,9 +1849,9 @@
       "source_file": "src/components/common/UI.tsx",
       "source_location": "L108",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "common_ui",
-      "target": "common_ui_selectprops",
-      "confidence_score": 1.0
+      "target": "common_ui_selectprops"
     },
     {
       "relation": "references",
@@ -2289,9 +2289,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude",
-      "target": "claude_graphify",
-      "confidence_score": 1.0
+      "target": "claude_graphify"
     },
     {
       "relation": "references",
@@ -2309,9 +2309,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme",
-      "target": "readme_personal_portfolio",
-      "confidence_score": 1.0
+      "target": "readme_personal_portfolio"
     },
     {
       "relation": "contains",
@@ -2319,9 +2319,9 @@
       "source_file": "README.md",
       "source_location": "L177",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_personal_portfolio",
-      "target": "readme_browser_support",
-      "confidence_score": 1.0
+      "target": "readme_browser_support"
     },
     {
       "relation": "contains",
@@ -2329,9 +2329,9 @@
       "source_file": "README.md",
       "source_location": "L189",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_personal_portfolio",
-      "target": "readme_contributing",
-      "confidence_score": 1.0
+      "target": "readme_contributing"
     },
     {
       "relation": "contains",
@@ -2339,9 +2339,9 @@
       "source_file": "README.md",
       "source_location": "L114",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_personal_portfolio",
-      "target": "readme_customization",
-      "confidence_score": 1.0
+      "target": "readme_customization"
     },
     {
       "relation": "contains",
@@ -2349,9 +2349,9 @@
       "source_file": "README.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_personal_portfolio",
-      "target": "readme_design_system",
-      "confidence_score": 1.0
+      "target": "readme_design_system"
     },
     {
       "relation": "contains",
@@ -2359,9 +2359,9 @@
       "source_file": "README.md",
       "source_location": "L157",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_personal_portfolio",
-      "target": "readme_development",
-      "confidence_score": 1.0
+      "target": "readme_development"
     },
     {
       "relation": "contains",
@@ -2369,9 +2369,9 @@
       "source_file": "README.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_personal_portfolio",
-      "target": "readme_features",
-      "confidence_score": 1.0
+      "target": "readme_features"
     },
     {
       "relation": "contains",
@@ -2379,9 +2379,9 @@
       "source_file": "README.md",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_personal_portfolio",
-      "target": "readme_getting_started",
-      "confidence_score": 1.0
+      "target": "readme_getting_started"
     },
     {
       "relation": "contains",
@@ -2389,9 +2389,9 @@
       "source_file": "README.md",
       "source_location": "L185",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_personal_portfolio",
-      "target": "readme_license",
-      "confidence_score": 1.0
+      "target": "readme_license"
     },
     {
       "relation": "contains",
@@ -2399,9 +2399,9 @@
       "source_file": "README.md",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_personal_portfolio",
-      "target": "readme_pages",
-      "confidence_score": 1.0
+      "target": "readme_pages"
     },
     {
       "relation": "contains",
@@ -2409,9 +2409,9 @@
       "source_file": "README.md",
       "source_location": "L150",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_personal_portfolio",
-      "target": "readme_performance",
-      "confidence_score": 1.0
+      "target": "readme_performance"
     },
     {
       "relation": "contains",
@@ -2419,9 +2419,9 @@
       "source_file": "README.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_personal_portfolio",
-      "target": "readme_project_structure",
-      "confidence_score": 1.0
+      "target": "readme_project_structure"
     },
     {
       "relation": "contains",
@@ -2429,9 +2429,9 @@
       "source_file": "README.md",
       "source_location": "L197",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_personal_portfolio",
-      "target": "readme_support",
-      "confidence_score": 1.0
+      "target": "readme_support"
     },
     {
       "relation": "contains",
@@ -2439,9 +2439,9 @@
       "source_file": "README.md",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_personal_portfolio",
-      "target": "readme_technologies_used",
-      "confidence_score": 1.0
+      "target": "readme_technologies_used"
     },
     {
       "relation": "contains",
@@ -2449,9 +2449,9 @@
       "source_file": "README.md",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_pages",
-      "target": "readme_about_page_pages_about_html",
-      "confidence_score": 1.0
+      "target": "readme_about_page_pages_about_html"
     },
     {
       "relation": "contains",
@@ -2459,9 +2459,9 @@
       "source_file": "README.md",
       "source_location": "L87",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_pages",
-      "target": "readme_contact_page_pages_contact_html",
-      "confidence_score": 1.0
+      "target": "readme_contact_page_pages_contact_html"
     },
     {
       "relation": "contains",
@@ -2469,9 +2469,9 @@
       "source_file": "README.md",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_pages",
-      "target": "readme_homepage_index_html",
-      "confidence_score": 1.0
+      "target": "readme_homepage_index_html"
     },
     {
       "relation": "contains",
@@ -2479,9 +2479,9 @@
       "source_file": "README.md",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_pages",
-      "target": "readme_projects_page_pages_projects_html",
-      "confidence_score": 1.0
+      "target": "readme_projects_page_pages_projects_html"
     },
     {
       "relation": "contains",
@@ -2489,9 +2489,9 @@
       "source_file": "README.md",
       "source_location": "L116",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_customization",
-      "target": "readme_colors",
-      "confidence_score": 1.0
+      "target": "readme_colors"
     },
     {
       "relation": "contains",
@@ -2499,9 +2499,9 @@
       "source_file": "README.md",
       "source_location": "L143",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_customization",
-      "target": "readme_content",
-      "confidence_score": 1.0
+      "target": "readme_content"
     },
     {
       "relation": "contains",
@@ -2509,9 +2509,9 @@
       "source_file": "README.md",
       "source_location": "L130",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_customization",
-      "target": "readme_typography",
-      "confidence_score": 1.0
+      "target": "readme_typography"
     },
     {
       "relation": "contains",
@@ -2519,9 +2519,9 @@
       "source_file": "README.md",
       "source_location": "L165",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_development",
-      "target": "readme_adding_new_pages",
-      "confidence_score": 1.0
+      "target": "readme_adding_new_pages"
     },
     {
       "relation": "contains",
@@ -2529,9 +2529,9 @@
       "source_file": "README.md",
       "source_location": "L159",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_development",
-      "target": "readme_adding_new_projects",
-      "confidence_score": 1.0
+      "target": "readme_adding_new_projects"
     },
     {
       "relation": "contains",
@@ -2539,11 +2539,11 @@
       "source_file": "README.md",
       "source_location": "L171",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_development",
-      "target": "readme_modifying_design_system",
-      "confidence_score": 1.0
+      "target": "readme_modifying_design_system"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f5dfa7e7581aa89167bbbf6367969116aa277979"
+  "built_at_commit": "ca0c23465a7ce54f12100061d305cc58d6ff1f3e"
 }

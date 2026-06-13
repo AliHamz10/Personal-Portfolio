@@ -70,8 +70,8 @@
     "semantic_hash": "11faa99e0c998bd758f7973ac6ac5677"
   },
   "src/components/Navbar.tsx": {
-    "mtime": 1781365571.0740263,
-    "ast_hash": "afb1b68e6c3ee5afde6e6c52a7ea4bf1",
+    "mtime": 1781365824.513256,
+    "ast_hash": "fba7f506756483871d996bbbc97a36e8",
     "semantic_hash": ""
   },
   "src/components/common/UI.tsx": {

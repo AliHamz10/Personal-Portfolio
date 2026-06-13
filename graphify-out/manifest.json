@@ -65,13 +65,13 @@
     "semantic_hash": "3d8c778398e7e6ff110afdfc4120d7f3"
   },
   "index.html": {
-    "mtime": 1781359172.5586743,
-    "ast_hash": "11faa99e0c998bd758f7973ac6ac5677",
-    "semantic_hash": "11faa99e0c998bd758f7973ac6ac5677"
+    "mtime": 1781365994.2379487,
+    "ast_hash": "8158eb6fdafe8367e7aa3a47faf43623",
+    "semantic_hash": ""
   },
   "src/components/Navbar.tsx": {
-    "mtime": 1781365824.513256,
-    "ast_hash": "fba7f506756483871d996bbbc97a36e8",
+    "mtime": 1781366003.837566,
+    "ast_hash": "64daa02d7fcaa34007abd238d2380bef",
     "semantic_hash": ""
   },
   "src/components/common/UI.tsx": {
