@@ -1,0 +1,91 @@
+[
+  [
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/eslint.config.js",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/package.json",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/tsconfig.app.json",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/tsconfig.json",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/tsconfig.node.json",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/vercel.json",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/vite.config.ts",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/AGENTS.md",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/CLAUDE.md",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/README.md",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/index.html",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/App.tsx",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/main.tsx",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/vite-env.d.ts",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/About.tsx",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/Career.tsx",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/Contact.tsx",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/Cursor.tsx",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/HoverLinks.tsx",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/Landing.tsx",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/Loading.tsx",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/MainContainer.tsx",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/Navbar.tsx"
+  ],
+  [
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/SocialIcons.tsx",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/TechStack.tsx",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/WhatIDo.tsx",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/Work.tsx",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/WorkImage.tsx",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/Character/Scene.tsx",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/Character/exports.ts",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/Character/index.tsx",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/Character/utils/animationUtils.ts",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/Character/utils/character.ts",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/Character/utils/decrypt.ts",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/Character/utils/lighting.ts",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/Character/utils/mouseUtils.ts",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/Character/utils/resizeUtils.ts",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/scene/CanvasBaseScene.tsx",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/scene/WebGLResizeFix.tsx",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/utils/GsapScroll.ts",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/utils/initialFX.ts",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/components/utils/splitText.ts",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/context/LoadingProvider.tsx",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/data/boneData.ts",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/types/gsap-splittext.d.ts",
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/utils/browser.ts"
+  ],
+  [
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/src/utils/waitForFonts.ts"
+  ],
+  [
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/public/images/Maxlife.png"
+  ],
+  [
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/public/images/Screenshot 2026-04-01 at 8.17.39\u202fAM.png"
+  ],
+  [
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/public/images/Screenshot 2026-04-01 at 8.18.54\u202fAM.png"
+  ],
+  [
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/public/images/Screenshot 2026-04-01 at 8.19.58\u202fAM.png"
+  ],
+  [
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/public/images/Solidx.png"
+  ],
+  [
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/public/images/bond.png"
+  ],
+  [
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/public/images/preview1.png"
+  ],
+  [
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/public/images/project1.png"
+  ],
+  [
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/public/images/project2.png"
+  ],
+  [
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/public/images/project3.png"
+  ],
+  [
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/public/images/radix.png"
+  ],
+  [
+    "/Users/alihamza/CursorCode Projects/Personal-Portfolio/public/images/sapphire.png"
+  ]
+]

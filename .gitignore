@@ -29,3 +29,7 @@ backup/
 .env
 ._*
 .vercel
+
+# graphify local files
+graphify-out/.graphify_python
+graphify-out/.graphify_root
