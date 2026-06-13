@@ -92,10 +92,7 @@ export const HoverLink: React.FC<HoverLinkProps> = ({
       target={target}
       rel={rel}
     >
-      <div className="hover-in">
-        {text}
-        <div className="hover-reveal">{text}</div>
-      </div>
+      {text}
     </a>
   );
 };

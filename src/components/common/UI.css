@@ -108,37 +108,19 @@
 }
 
 /* ==========================================
-   3. HoverLink Styles (Slide Up Hover Link Effect)
+   3. HoverLink Styles
    ========================================== */
 .hover-link {
-  position: relative;
-  display: inline-flex;
-  text-wrap: nowrap;
-  overflow: hidden;
+  color: #ccd6f6;
   text-decoration: none;
   cursor: pointer;
+  transition: color 0.2s ease-in-out;
+  display: inline-flex;
 }
 
-.hover-in {
-  position: relative;
-  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-
-.hover-reveal {
-  display: flex;
-  position: absolute;
-  top: 100%;
-  left: 0;
+.hover-link:hover,
+.hover-link.active {
   color: #64FFDA;
-}
-
-.hover-link:hover .hover-in,
-.hover-link.active .hover-in {
-  transform: translateY(-100%);
-}
-
-.hover-link.active .hover-reveal {
-  font-weight: bold;
 }
 
 /* ==========================================
