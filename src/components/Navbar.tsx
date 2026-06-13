@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FiMail, FiGithub, FiLinkedin } from "react-icons/fi";
-import { SiSubstack } from "react-icons/si";
+import { FiMail, FiGithub, FiLinkedin, FiEdit } from "react-icons/fi";
 import { HoverLink } from "./common/UI";
 import "./styles/Navbar.css";
 
@@ -103,7 +102,7 @@ const Navbar = () => {
           title="Substack"
           data-cursor="disable"
         >
-          <SiSubstack />
+          <FiEdit />
         </a>
       </div>
 
@@ -170,7 +169,7 @@ const Navbar = () => {
             className="mobile-icon-link"
             title="Substack"
           >
-            <SiSubstack />
+            <FiEdit />
           </a>
         </div>
       </div>
