@@ -1,22 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=NTR&display=swap");
+
+::selection {
+  background-color: #64FFDA;
+  color: #0A1930;
+}
+
+::-moz-selection {
+  background-color: #64FFDA;
+  color: #0A1930;
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "NTR", "Inter", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #0A1930;
+  color: #eae5ec;
+  background-color: var(--primaryColor);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  user-select: text;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+
+  --primaryColor: #0A1930;
+  --secondaryColor: #64FFDA;
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: var(--primaryColor);
+  color: #eae5ec;
 }
